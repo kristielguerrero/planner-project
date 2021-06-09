@@ -1,9 +1,9 @@
-console.log("inside the script file");
-
 moment().format("dddd, MMMM Do");
 $("#currentDay").text(moment().format("dddd, MMMM Do"));
+
 var timeBlockList = $(".time-block");
 console.log(timeBlockList);
+
 timeBlockList.each(function () {
   console.log($(this).attr("id"));
   var timeBlockHour = $(this).attr("id");
